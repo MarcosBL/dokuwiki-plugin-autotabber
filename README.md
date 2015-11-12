@@ -1,5 +1,8 @@
 # Dokuwiki Plugin Autotabber
+
 Use Tabs inside your DokuWiki editor
+
+![Demo image](http://i.imgur.com/9BU53N3.png)
 
 * Tab insertion via the Tab key
 * Tab removal via the Shift+Tab key combination
