@@ -12,5 +12,5 @@
 
 jQuery(window).load(function(){
         var textareas = document.getElementsByTagName('textarea');
-        tabOverride.set(textareas).tabSize(0).autoIndent(true).escape(true);
+        tabOverride.set(textareas).tabSize(4).autoIndent(true).escape(true);
 });
