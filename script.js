@@ -7,7 +7,7 @@
 /* DOKUWIKI:include taboverride.js */
 /* DOKUWIKI:include taboverride.escape.js */
 
-jQuery(window).load(function(){
+jQuery(window).on('load', function(){
         var textareas = document.getElementsByTagName('textarea');
         tabOverride.set(textareas).tabSize(0).autoIndent(true).escape(true);
 });
