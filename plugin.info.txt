@@ -1,7 +1,7 @@
 base    autotabber
 author  MarcosBL
 email   soy@marcosbl.com
-date    2015-11-12
+date    2021-09-01
 name    AutoTabber Plugin
 desc    Use Tabs inside your DokuWiki editor
 url     https://www.dokuwiki.org/plugin:autotabber
