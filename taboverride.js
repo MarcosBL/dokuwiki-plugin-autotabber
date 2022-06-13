@@ -419,6 +419,12 @@
             // find the end of the first selected line
             endLine = text.indexOf('\n', selStart);
 
+            // Check if the line starts with spc and - or * followed by spc to skip adding a line break to the list
+            let testList = text.slice(startLine,endLine);
+            if (testList.match(/^[ ]+[-\*]{1}[ ]{1}?.*$/)) {
+                return;
+            }
+
             // if no newline is found, set endLine to the end of the text
             if (endLine === -1) {
                 endLine = text.length;
